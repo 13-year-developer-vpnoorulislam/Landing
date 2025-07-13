@@ -13,22 +13,29 @@
 </head>
 <body>
     <nav class="nav">
-        <img src="img/site_logo.jpg" alt="logo"/>
-        <div class="nav_items">
+<div class="nav_brand">
+      <img src="img/site_logo.jpg" alt="logo"/>
+</div>
+
+<div class="nav_mobile_items">
 <select id="language-switcher">
   <option value="de">DE</option>
   <option value="en">EN</option>
   <option value="it">IT</option>
   <option value="ru">RU</option>
 </select>
-            <a href="javascript:void(0)" target="_blank">About Me</a>
-            <a href="javascript:void(0)" target="_blank">Focus Areas</a>
-            <a href="javascript:void(0)" target="_blank">Methods</a>
-            <a href="javascript:void(0)" target="_blank">Contact</a>
+      <a id="menu" href="javascript:void(0)"><i class="fa-sharp fa-solid fa-bars"></i></a>
+</div>
+
+      <div class="nav_items">
             <form action="" method="post">
                 <label for="search_bar" class="search_label"><i class="fas fa-search"></i></label>
                 <input id="search_bar" placeholder="Search" name="search_bar" type="search">
             </form>
+            <a href="javascript:void(0)" target="_blank">About Me</a>
+            <a href="javascript:void(0)" target="_blank">Focus Areas</a>
+            <a href="javascript:void(0)" target="_blank">Methods</a>
+            <a href="javascript:void(0)" target="_blank">Contact</a>
         </div>
     </nav>
     <div class="hero_section">
@@ -42,8 +49,7 @@
             <a href="http://" target="_blank">Learn More</a>
         </div>
         </div>
-
-        <img src="img/img1.png"/>
+        <img class="hero_section_img" src="img/img1.png"/>
     </div>
 <div class="cards">
     <div class="card_content">
@@ -248,7 +254,7 @@ We feel helpless, anxious, nervous, sad, or unhappy.</p>
       <span>RU</span>
     </div>
   </footer>
-
+ 
 <script src="script.js"></script>
 </body>
 </html>

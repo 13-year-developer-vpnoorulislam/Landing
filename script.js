@@ -14,3 +14,23 @@ menu.addEventListener('click', ()=>{
         isOpen = true;
     }
 });
+
+// Podcast Announcement Section: Dynamic Content Injection
+// Assumes podcastData.js is loaded before this script
+(function() {
+  // Check if podcastData is available
+  if (typeof podcastData !== 'undefined') {
+    var section = document.getElementById('podcast-section');
+    if (section) {
+      var title = section.querySelector('.podcast-title');
+      var desc = section.querySelector('.podcast-description');
+      var cta = section.querySelector('.podcast-cta');
+      if (title) title.textContent = podcastData.title;
+      if (desc) desc.textContent = podcastData.description;
+      if (cta) {
+        cta.textContent = podcastData.ctaText;
+        cta.href = podcastData.ctaUrl;
+      }
+    }
+  }
+})();

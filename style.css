@@ -363,13 +363,53 @@ footer ul li {
 #menu {
   display: none;
 }
+.video.cards {
+  background: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.video.cards video {
+  max-width: 550px;
+  max-height: 400px;
+  object-fit: cover;
+}
+.video.card_content {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  max-width: 1100px;
+}
+.right_content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  max-width: 500px;
+}
+.right_content .cta {
+  justify-content: start;
+}
 @media only screen and (max-width: 500px) {
   .container {
     flex-direction: column;
     gap: 40px;
   }
+  .video.cards video {
+    width: 100%;
+  }
+  .video.card_content {
+    justify-content: center;
+  }
+  .right_content {
+    width: fit-content;
+  }
 }
 @media only screen and (max-width: 900px) {
+  .right_content {
+  }
   .nav_items {
     position: fixed;
     top: 0;
@@ -406,18 +446,4 @@ footer ul li {
   .hero_section_img {
     display: none;
   }
-}
-.video.cards {
-  background: rgb(245, 245, 245);
-}
-.video.cards video {
-  max-width: 550px;
-  max-height: 400px;
-  object-fit: cover;
-}
-.video.card_content {
-  display: flex;
-  flex-wrap: wrap;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }

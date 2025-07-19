@@ -1,0 +1,23 @@
+{
+  "note": "These podcasts are for educational purposes, personal reflection, and emotional well-being.",
+  "podcasts": [
+    {
+      "id": "podcast-1",
+      "title": "Understanding Emotional Well-being",
+      "description": "A deep dive into emotional health and personal growth.",
+      "videoUrl": "https://www.youtube.com/embed/example1",
+      "purpose": "Educational, personal reflection, and emotional well-being.",
+      "releaseDate": "2025-07-01",
+      "duration": "45:00"
+    },
+    {
+      "id": "podcast-2",
+      "title": "Coping Strategies for Stress",
+      "description": "Practical tips and expert advice for managing stress.",
+      "videoUrl": "https://www.youtube.com/embed/example2",
+      "purpose": "Educational, personal reflection, and emotional well-being.",
+      "releaseDate": "2025-07-08",
+      "duration": "38:00"
+    }
+  ]
+}

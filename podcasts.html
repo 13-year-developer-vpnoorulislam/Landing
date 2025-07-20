@@ -22,7 +22,7 @@
     ></script>
   </head>
   <body>
-    <!-- Navbar (copied from index.html) -->
+    
     <nav class="nav">
       <div class="nav_brand">
         <img src="assets/img/site_logo.jpg" alt="logo" />
@@ -59,8 +59,8 @@
       </div>
     </nav>
 
-    <!-- Hero Section -->
-    <div class="podcast-hero slide-in">
+    
+    <div class="podcast-hero slide-in-right">
       <img
         src="assets/img/img2.png"
         class="podcast-hero-img"
@@ -68,6 +68,9 @@
       />
       <div class="podcast-hero-content">
         <h1>Podcasts</h1>
+        <p style="margin-top: 0.5em; color: #6F1E57; font-size: 1.1rem; font-weight: 500;">
+          Listening to podcasts can nurture emotional growth, healing, and self-awareness.
+        </p>
         <p>
           Welcome to our podcast hub! Dive into inspiring conversations, expert
           insights, and real stories on trauma recovery, resilience, and family
@@ -77,129 +80,126 @@
       </div>
     </div>
 
-    <!-- Central Video Section -->
-    <!-- <section class="central-video-section">
-      <div class="central-video-wrapper slide-in">
-        <div class="central-video-title">Featured Episode</div>
-        <div class="central-video-desc">Select an episode below to watch and learn more about trauma recovery, resilience, and family well-being.</div>
-        <div class="central-video-player" style="background: #f5cfee; color: #6F1E57; font-size: 1.2rem; height: 350px; width: 100%; display: flex; align-items: center; justify-content: center; padding: 0; overflow: hidden;">
-          <img src="img/img2.png" alt="Featured Episode Thumbnail" style="width: 100%; height: 100%; object-fit: cover; display: block;"/>
-        </div>
-      </div>
-    </section> -->
+    
 
-    <!-- Podcast List Section -->
+    
     <section class="podcast-section">
-      <div class="featured-episode">
-        <div class="central-video-title">Featured Episode</div>
-        <div class="central-video-desc">
-          Welcome to our podcast hub! Dive into inspiring conversations, expert
-          insights, and real stories on trauma recovery, resilience, and family
-          well-being. Each episode is crafted to energize, inform, and empower
-          you on your journey.
+      <div class="featured-section-header slide-in-on-scroll-right">
+        <div class="featured-section-title">
+          <span class="featured-badge">Featured</span>
+          <h2>Featured Podcast</h2>
         </div>
-        <div class="featured-episode-image">
-          <img
-            src="assets/img/img2.png"
-            alt="Featured Episode"
-            style="width: 100%; height: 100%; object-fit: cover"
-          />
-          <button class="featured-episode-play">
-            <i class="fa fa-play"></i>
-          </button>
-        </div>
-        <div class="podcast-card-title">Episode 1: Understanding Trauma</div>
-        <div class="podcast-card-meta">
-          <span><i class="fa fa-clock"></i> 32 min</span>
-          <span><i class="fa fa-calendar"></i> </span>
-        </div>
-        <div class="podcast-card-desc">
-          An introduction to trauma, its effects, and the first steps toward
-          healing. Featuring expert advice and real-life stories.
-        </div>
+        <p class="featured-section-subtitle">Discover our most popular episodes and latest releases</p>
       </div>
-      <div class="section-title" style="margin-top: 48px; text-align: center">
-        All Episodes
+      <div class="featured-section-description slide-in-on-scroll-right">
+        <p>Dive deep into transformative conversations about trauma recovery, resilience building, and emotional healing. Our featured episodes are carefully curated to provide you with the most impactful insights and practical strategies for your journey toward healing and growth.</p>
       </div>
-      <div class="podcast-list" style="justify-content: center; gap: 20px">
-        <div class="podcast-card">
-          <div class="podcast-card-image">
-            <img
-              src="assets/img/img1.png"
-              alt="Episode 1"
-              style="width: 100%; height: 100%; object-fit: cover"
-            />
-            <span class="podcast-card-tag">Trauma</span>
-            <button class="podcast-card-play">
+      <div class="featured-episodes-row slide-in-on-scroll-right">
+        <div class="featured-episode-modern-card">
+          <div class="featured-episode-modern-img-wrap">
+            <img src="assets/img/img2.png" alt="Featured Episode" class="featured-episode-modern-img" />
+            <button class="featured-episode-modern-play" aria-label="Play episode">
               <i class="fa fa-play"></i>
             </button>
           </div>
-          <div class="podcast-card-content">
-            <div class="podcast-card-meta">
+          <div class="featured-episode-modern-info">
+            <div class="featured-episode-modern-meta">
+              <span class="tag">Trauma</span>
               <span><i class="fa fa-clock"></i> 32 min</span>
-              <span><i class="fa fa-calendar"></i> </span>
+              <span><i class="fa fa-calendar"></i> May 2024</span>
             </div>
-            <div class="podcast-card-title">
-              Episode 1: Understanding Trauma
+            <div class="featured-episode-modern-title2">Understanding Trauma</div>
+            <div class="featured-episode-modern-desc2">
+              An introduction to trauma, its effects, and the first steps toward healing. Featuring expert advice and real-life stories.
             </div>
-            <div class="podcast-card-desc">
-              An introduction to trauma, its effects, and the first steps toward
-              healing. Featuring expert advice and real-life stories.
-            </div>
-          </div>
-        </div>
-        <div class="podcast-card">
-          <div class="podcast-card-image">
-            <img
-              src="assets/img/img2.png"
-              alt="Episode 2"
-              style="width: 100%; height: 100%; object-fit: cover"
-            />
-            <span class="podcast-card-tag">Resilience</span>
-            <button class="podcast-card-play">
-              <i class="fa fa-play"></i>
-            </button>
-          </div>
-          <div class="podcast-card-content">
-            <div class="podcast-card-meta">
-              <span><i class="fa fa-clock"></i> 45 min</span>
-              <span><i class="fa fa-calendar"></i> </span>
-            </div>
-            <div class="podcast-card-title">Episode 2: Building Resilience</div>
-            <div class="podcast-card-desc">
-              Explore practical strategies for building resilience in families
-              and individuals. Includes actionable tips and inspiring
-              interviews.
-            </div>
-          </div>
-        </div>
-        <div class="podcast-card">
-          <div class="podcast-card-image">
-            <img
-              src="assets/img/img1.png"
-              alt="Episode 3"
-              style="width: 100%; height: 100%; object-fit: cover"
-            />
-            <span class="podcast-card-tag">Multilingual</span>
-            <button class="podcast-card-play">
-              <i class="fa fa-play"></i>
-            </button>
-          </div>
-          <div class="podcast-card-content">
-            <div class="podcast-card-meta">
-              <span><i class="fa fa-clock"></i> 39 min</span>
-              <span><i class="fa fa-calendar"></i> </span>
-            </div>
-            <div class="podcast-card-title">
-              Episode 3: Multilingual Support
-            </div>
-            <div class="podcast-card-desc">
-              How language and culture shape the healing process. Insights from
-              multilingual therapists and clients.
+            <div class="featured-episode-modern-actions">
+             
+              <button class="secondary-btn">View Transcript</button>
             </div>
           </div>
         </div>
       </div>
+
+     
+
+      <div class="all-episodes-section-header slide-in-on-scroll-left">
+        <div class="all-episodes-section-title">
+          <span class="all-episodes-badge">Episodes</span>
+          <h2>All Episodes</h2>
+        </div>
+        <p class="all-episodes-section-subtitle">Explore our complete collection of trauma recovery and healing podcasts</p>
+      </div>
+      <div class="all-episodes-section-description slide-in-on-scroll-left">
+        <p>Browse through our comprehensive library of episodes covering various aspects of trauma recovery, resilience building, and emotional healing. Each episode is designed to provide practical insights, expert guidance, and real stories to support your healing journey.</p>
+      </div>
+      <!-- Carousel Wrapper Start -->
+      <div class="podcast-carousel-wrapper slide-in-on-scroll-left">
+        <button class="carousel-arrow carousel-arrow-left" aria-label="Previous episode">&#8592;</button>
+        <div class="podcast-carousel">
+          <div class="podcast-carousel-track">
+            <div class="podcast-card">
+              <div class="podcast-card-image">
+                <img
+                  src="assets/img/img1.png"
+                  alt="Episode 1"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                />
+                <span class="podcast-card-tag">Trauma</span>
+                <button class="podcast-card-play">
+                  <i class="fa fa-play"></i>
+                </button>
+              </div>
+              <div class="podcast-card-content">
+                <div class="podcast-card-meta">
+                  <span><i class="fa fa-clock"></i> 32 min</span>
+                  <span><i class="fa fa-calendar"></i> </span>
+                </div>
+                <div class="podcast-card-title">
+                  Episode 1: Understanding Trauma
+                </div>
+                <div class="podcast-card-desc">
+                  An introduction to trauma, its effects, and the first steps toward
+                  healing. Featuring expert advice and real-life stories.
+                </div>
+              </div>
+            </div>
+            <div class="podcast-card">
+              <div class="podcast-card-image">
+                <img
+                  src="assets/img/img2.png"
+                  alt="Episode 2"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                />
+                <span class="podcast-card-tag">Resilience</span>
+                <button class="podcast-card-play">
+                  <i class="fa fa-play"></i>
+                </button>
+              </div>
+              <div class="podcast-card-content">
+                <div class="podcast-card-meta">
+                  <span><i class="fa fa-clock"></i> 45 min</span>
+                  <span><i class="fa fa-calendar"></i> </span>
+                </div>
+                <div class="podcast-card-title">Episode 2: Building Resilience</div>
+                <div class="podcast-card-desc">
+                  Explore practical strategies for building resilience in families
+                  and individuals. Includes actionable tips and inspiring
+                  interviews.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-arrow carousel-arrow-right" aria-label="Next episode">&#8594;</button>
+        <div class="carousel-indicators">
+          <span class="carousel-indicator active" data-slide="0"></span>
+          <span class="carousel-indicator" data-slide="1"></span>
+        </div>
+      </div>
+      <div class="show-more-container slide-in-on-scroll-left">
+        <button class="show-more-btn">Show More &rarr;</button>
+      </div>
+      <!-- Carousel Wrapper End -->
     </section>
 
     <!-- Footer (copied from index.html) -->
@@ -211,7 +211,7 @@
           supporting individuals worldwide.
         </p>
         <div class="social-icons">
-          <span>📘</span>
+          <span>  </span>
           <span>📸</span>
           <span>💼</span>
         </div>
